@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700;800&family=Noto+Sans+Georgian:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Comfortaa", "Noto Sans Georgian", system-ui, -apple-system, sans-serif;
+  --font-mono: "Comfortaa", monospace;
+  
+  --color-brand-50: #fbfafa;
+  --color-brand-100: #f2efee;
+  --color-brand-200: #e5dfdd;
+  --color-brand-300: #cdc1be;
+  --color-brand-400: #a79793;
+  --color-brand-500: #756663;
+  --color-brand-600: #5e514f;
+  --color-brand-700: #4c4140;
+  --color-brand-800: #3e3534;
+  --color-brand-900: #1b1716;
+}
+
+/* Custom scrollbar and high contrast selection styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+::-webkit-scrollbar-thumb {
+  background: #2b2423;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #756663;
+}
