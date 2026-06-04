@@ -1,0 +1,7 @@
+Upload checklist:
+
+1. Upload every item in this folder to the root of k8kapanadze/arv.
+2. The repository root must show index.html and package.json.
+3. Settings -> Pages -> Source must be GitHub Actions.
+4. public/CNAME must stay in the repository. It contains arv.imed.com.ge.
+5. Wait for Actions -> Deploy to GitHub Pages to finish successfully.
