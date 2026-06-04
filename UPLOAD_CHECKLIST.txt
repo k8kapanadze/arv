@@ -3,5 +3,7 @@ Upload checklist:
 1. Upload every item in this folder to the root of k8kapanadze/arv.
 2. The repository root must show index.html and package.json.
 3. Settings -> Pages -> Source must be GitHub Actions.
-4. public/CNAME must stay in the repository. It contains arv.imed.com.ge.
-5. Wait for Actions -> Deploy to GitHub Pages to finish successfully.
+4. CNAME and public/CNAME must stay in the repository. Both contain arv.imed.com.ge.
+5. In Settings -> Pages, Custom domain must be arv.imed.com.ge.
+6. Wait for Actions -> Deploy to GitHub Pages to finish successfully.
+7. If the site still shows 404, open Actions and confirm the latest deploy is green.
